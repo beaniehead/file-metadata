@@ -4,7 +4,6 @@ const app = express();
 const controller = require("./controllers/controller");
 const routes = require("./routes/index.js");
 const path = require('path');
-require('dotenv').config();
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");

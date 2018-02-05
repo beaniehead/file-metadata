@@ -1,6 +1,3 @@
-const MongoClient = require("mongodb").MongoClient;
-const assert = require("assert");
-const Promise = require("es6-promise").Promise;
 const multer = require("multer");
 
 exports.homePage = (req,res) => {
